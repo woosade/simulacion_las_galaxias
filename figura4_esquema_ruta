@@ -1,0 +1,16 @@
+// Esquema de la Ruta Base y Alternativa
+digraph {
+	H [label="Hualqui (Santa Josefina)" color=blue shape=ellipse]
+	C [label=Chiguayante color=blue shape=ellipse]
+	Con [label="Concepción" color=blue shape=ellipse]
+	SV [label="San Vicente" color=blue shape=ellipse]
+	T [label=Talcahuano color=blue shape=ellipse]
+	Aero [label=Aeropuerto color=red shape=ellipse]
+	Final [label="San Vicente" color=blue shape=ellipse]
+	H -> C [label="Ruta Base" color=blue]
+	C -> Con [label="Ruta Base" color=blue]
+	Con -> SV [label="Ruta Base" color=blue]
+	SV -> T [label="Ruta Base" color=blue]
+	H -> Aero [label="Ruta Alternativa" color=red]
+	Aero -> SV [label="Ruta Alternativa" color=red]
+}

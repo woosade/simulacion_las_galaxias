@@ -1,0 +1,38 @@
+
+=== RESULTADOS DE LA SIMULACIÓN ===
+Escenario: ruta_alternativa
+Total de pasajeros atendidos: 29934
+
+Ocupación promedio por parada (%):
+parada
+Parada 1 (HUALQUI (SANTA JOSEFINA))    16.241128
+Parada Aeropuerto                      27.244991
+Parada Final (SAN VICENTE)              0.000000
+Name: ocupacion, dtype: float64
+
+Estadísticas de tiempos de espera (min):
+count    29934.000000
+mean         4.304800
+std          2.826082
+min          0.000327
+25%          1.844607
+50%          3.999377
+75%          6.591157
+max         15.145214
+dtype: float64
+
+Multas por atraso por parada:
+parada
+Parada Final (SAN VICENTE)    1302
+Parada Aeropuerto             1261
+Name: count, dtype: int64
+
+Total de multas acumuladas: 2563000 unidades monetarias
+Pasajeros no atendidos por parada:
+Parada 1 (HUALQUI (SANTA JOSEFINA)): 0
+Parada Aeropuerto: 0
+Parada Final (SAN VICENTE): 0
+
+=== FIN DE LA SIMULACIÓN ===
+Nota: Todos los supuestos y simplificaciones han sido documentados en el código.
+Favor referirse al informe para mayor detalle y justificación de dichos supuestos.

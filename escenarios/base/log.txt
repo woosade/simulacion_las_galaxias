@@ -1,0 +1,41 @@
+
+=== RESULTADOS DE LA SIMULACIÓN ===
+Escenario: base
+Total de pasajeros atendidos: 41680
+
+Ocupación promedio por parada (%):
+parada
+Parada 1 (HUALQUI (SANTA JOSEFINA))    35.396825
+Parada 2 (Intermedia)                  59.356504
+Parada 3 (Intermedia)                  82.778109
+Parada 4 (SAN VICENTE)                  0.000000
+Name: ocupacion, dtype: float64
+
+Estadísticas de tiempos de espera (min):
+count    41680.000000
+mean         5.409031
+std          3.653837
+min          0.000681
+25%          2.536098
+50%          5.024951
+75%          7.688983
+max         35.532501
+dtype: float64
+
+Multas por atraso por parada:
+parada
+Parada 4 (SAN VICENTE)    694
+Parada 3 (Intermedia)     656
+Parada 2 (Intermedia)     628
+Name: count, dtype: int64
+
+Total de multas acumuladas: 1978000 unidades monetarias
+Pasajeros no atendidos por parada:
+Parada 1 (HUALQUI (SANTA JOSEFINA)): 0
+Parada 2 (Intermedia): 14
+Parada 3 (Intermedia): 1626
+Parada 4 (SAN VICENTE): 0
+
+=== FIN DE LA SIMULACIÓN ===
+Nota: Todos los supuestos y simplificaciones han sido documentados en el código.
+Favor referirse al informe para mayor detalle y justificación de dichos supuestos.

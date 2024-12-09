@@ -1,0 +1,15 @@
+// Diagrama de Flujo del Modelo de Simulación
+digraph {
+	P [label=Pasajero]
+	Par [label=Parada]
+	B [label=Bus]
+	GP [label="Generación de Pasajeros"]
+	AB [label="Abordaje/Bajada de Pasajeros"]
+	RB [label="Recorrido del Bus"]
+	P -> GP
+	GP -> Par
+	Par -> AB
+	AB -> B
+	B -> RB
+	RB -> Par
+}
